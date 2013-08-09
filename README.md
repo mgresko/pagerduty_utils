@@ -18,7 +18,7 @@ test2@example.com: 26.66%
 test3@example.com: 26.60%
 test4@example.com: 3.45%
 test5@example.com: 0.49%
-test6@assistly.com: 0.03%
+test6@example.com: 0.03%
 ```
 
 Details: http://developer.pagerduty.com/documentation/rest/schedules
