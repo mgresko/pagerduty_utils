@@ -5,8 +5,8 @@ How much time am I on call?
 
 Percentage oncall for all users in last 60 days
 
-```python
-python total_oncall_time.py --schedule <schedule> --api-token <token> --pd-site <site> --start 60 --stop 0
+```bash
+./total_oncall_time.py --schedule <schedule> --api-token <token> --start 60 --stop 0
 ```
 
 Example Output
@@ -21,4 +21,4 @@ test5@example.com: 0.49%
 test6@example.com: 0.03%
 ```
 
-Details: http://developer.pagerduty.com/documentation/rest/schedules
+Details: https://developer.pagerduty.com/v2/page/api-reference#!/On-Calls/get_oncalls
